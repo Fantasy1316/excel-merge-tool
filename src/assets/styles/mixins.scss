@@ -1,0 +1,8 @@
+$--primary-color: #efb314;
+$--default-text-color: #333;
+
+@mixin --mixin-container($color: #fff) {
+  width: 100%;
+  height: 100vh;
+  background-color: $color;
+}
